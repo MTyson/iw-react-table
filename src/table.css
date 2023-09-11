@@ -1,0 +1,48 @@
+.crypto-container {
+  width: 50%;
+  max-height: 33vh; /* Set the maximum height to 33% of the viewport height */
+  overflow: auto;
+}
+
+.crypto-table {
+  width: 100%;
+}
+
+.crypto-table th,
+.crypto-table td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.crypto-table th {
+  background-color: #eee;
+}
+
+.crypto-table {
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.crypto-table th,
+.crypto-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.crypto-table th {
+  background-color: #eee;
+  text-align: left;
+}
+
+.crypto-table td {
+  text-align: right;
+}
+
+.crypto-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+.crypto-table tr:hover {
+  background-color: #ddd;
+}
